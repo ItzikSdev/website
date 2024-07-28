@@ -1,0 +1,41 @@
+:root {
+    --color-black: #141414;
+    --color-purple-pink: #8d759f;
+    --color-white: #fff;
+  }
+  
+  main {
+    margin-bottom: 20px;
+  }
+  
+  h1,
+  p {
+    font-family: Lato;
+    margin: 0;
+  }
+  
+  h1 {
+    width: max-content;
+  }
+  
+  .section {
+    min-height: 100vh;
+    background-color: var(--color-black);
+    color: var(--color-white);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .section.orange {
+    background-color: var(--color-purple-pink);
+  }
+  
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
