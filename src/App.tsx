@@ -5,7 +5,7 @@ import gsap from "gsap";
 import ScrollTrigger from "gsap/ScrollTrigger";
 import "./reset.css";
 import "./style.css";
-import { Button, Grid, Typography } from "@mui/material";
+import { Typography } from "@mui/material";
 
 function App() {
   const scrollRef = useRef<Lenis>();
@@ -60,7 +60,7 @@ function App() {
               <div className="wrapper">
                 <Typography color="neutral" variant="h1">
                   Layered pinning 2
-                </Typography>{" "}
+                </Typography>
               </div>
             </section>
           </Scrollytelling.Pin>
@@ -76,7 +76,7 @@ function App() {
               <div className="wrapper">
                 <Typography color="neutral" variant="h1">
                   Layered pinning 3
-                </Typography>{" "}
+                </Typography>
               </div>
             </section>
           </Scrollytelling.Pin>
